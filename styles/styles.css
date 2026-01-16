@@ -47,3 +47,8 @@ main img {
 h1 {
     color: rebeccapurple;
 }
+
+nav {
+    background-color: violet;
+    padding: 1rem;
+}
