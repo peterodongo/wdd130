@@ -47,3 +47,9 @@ footer {
     border-top: 1px solid #000;
     text-align: centre;
 }
+
+main img {
+    width: 150px;
+    height: auto;
+
+}
