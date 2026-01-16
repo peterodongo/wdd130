@@ -5,7 +5,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(red, green, blue);
+    border: 1px solid rgb(0.4, 8);
     padding: 1rem;
     background-color: white;
     color: #333;
@@ -20,9 +20,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid #ccc;
-    padding: 1px;
-    box-shadow: 2px rgb(red, green, blue);
+
 }
 
 p {
@@ -30,7 +28,6 @@ p {
 }
 
 footer {
-
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
