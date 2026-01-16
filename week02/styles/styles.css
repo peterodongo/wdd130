@@ -34,6 +34,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1rem;
+    padding: 1rem;
     box-shadow: cyan;
 }
 
