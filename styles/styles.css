@@ -52,3 +52,9 @@ nav {
     background-color: violet;
     padding: 1rem;
 }
+
+nav a {
+    color: darkgreen;
+    padding: 1rem;
+    display: block;
+}
