@@ -20,6 +20,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 1px;
+    box-shadow: 2px rgb(red, green, blue);
 }
 
 p {
