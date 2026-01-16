@@ -31,11 +31,11 @@ aside img {
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    border: 1rem;
-    padding: 1rem;
-    box-shadow: cyan;
+    border: 1px solid block;
+    padding: 2px;
+    box-shadow: 0, 0 30px grey;
 }
 
 p {
