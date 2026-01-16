@@ -5,7 +5,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0.4, 8);
+    border: 1px solid;
     padding: 1rem;
     background-color: white;
     color: #333;
