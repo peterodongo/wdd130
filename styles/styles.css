@@ -33,3 +33,13 @@ footer {
     text-align: center;
 
 }
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1rem;
+    box-shadow: inset;
+    padding: 1rem;
+    color: aqua;
+
+}
