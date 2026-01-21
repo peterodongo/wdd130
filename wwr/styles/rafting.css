@@ -24,6 +24,7 @@ main,
 footer {
     width: 840px;
     margin: 40px;
+    color: var(--secondary-color);
 
 }
 
