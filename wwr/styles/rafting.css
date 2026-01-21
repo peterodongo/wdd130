@@ -1,7 +1,7 @@
 :root {
     --primary-color: blue;
     --secondary-color: black;
-    --accent1-color: red;
+    --accent1-color: green;
     --accent2color: darkred;
     --heading-font: pink;
     --body-font: orange;
@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: green;
+    color: var(--accent1-color);
 }
 
 header,
