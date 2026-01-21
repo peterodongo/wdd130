@@ -71,3 +71,7 @@ h1 {
     float: right;
     width: 125px;
 }
+
+.hero article {
+    position: relative;
+}
