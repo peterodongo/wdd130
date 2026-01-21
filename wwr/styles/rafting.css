@@ -9,8 +9,8 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: 0 auto;
+    margin: 40px;
 
 }
 
@@ -38,7 +38,7 @@ p,
 section,
 article {
     margin: 15px;
-    padding: 8px;
+    padding: 10px;
 
 }
 
@@ -59,7 +59,7 @@ article {
 h1 {
     position: absolute;
     width: 100%;
-    padding: 16px;
+    padding: 4px;
     text-align: centre;
     opacity: 0.7;
     background-color: var(--accent-color2);
