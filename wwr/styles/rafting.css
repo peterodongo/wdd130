@@ -62,7 +62,7 @@ h1 {
     padding: 4px;
     text-align: centre;
     opacity: 0.7;
-    background-color: var(--accent-color2);
+    background-color: var(--accent2color);
     color: green;
 
 }
