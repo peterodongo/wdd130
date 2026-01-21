@@ -27,18 +27,20 @@ footer {
 
 }
 
-h1,
+h1 {}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: 50px;
 }
 
 nav,
 p,
 section,
 article {
-    margin: 15px;
-    padding: 10px;
+    margin: 1px;
+    padding: 30px;
 
 }
 
@@ -59,11 +61,11 @@ article {
 h1 {
     position: absolute;
     width: 100%;
-    padding: 4px;
+    padding: 1px;
     text-align: centre;
     opacity: 0.7;
     background-color: var(--accent2color);
-    color: green;
+    color: white;
 
 }
 
