@@ -42,7 +42,7 @@ article {
 
 }
 
-.soscialmedia a {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -56,8 +56,9 @@ article {
     height: auto;
 }
 
-h1 {
-    position: absolute top;
+h1,
+.hero article {
+    position: absolute;
     width: 100%;
     padding: 16px;
     text-align: centre;
@@ -68,6 +69,6 @@ h1 {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 125px;
 }
