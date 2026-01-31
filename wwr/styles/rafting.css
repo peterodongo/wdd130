@@ -22,27 +22,57 @@ body {
 header,
 main,
 footer {
-    width: 840px;
-    margin: 40px;
+    width: 540px;
+    margin: 60px;
     color: var(--secondary-color);
 
 }
 
-h1 {}
+h1 {
+    position: absolute;
+    width: 100%;
+    padding: 0.5px;
+    opacity: 10.7;
+    background-color: var(--accent2color);
+    color: white;
+
+}
 
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    padding: 50px;
+    padding: 200px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 nav,
-p,
-section,
-article {
+p article {
     margin: 1px;
     padding: 30px;
+}
 
+main,
+section p2 {
+    padding: 0.rem;
+    border: 1 rem;
+    margin: 1rem;
+}
+
+main,
+article,
+p1 {
+    padding: 0.5rem;
+    border: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+main,
+section,
+p2 {
+    padding: 1rem;
+    border: 1 rem;
+    margin: 1 rem;
 }
 
 .socialmedia a {
@@ -59,16 +89,6 @@ article {
     height: auto;
 }
 
-h1 {
-    position: absolute;
-    width: 100%;
-    padding: 1px;
-    opacity: 0.7;
-    background-color: var(--accent2color);
-    color: white;
-
-}
-
 .hero article img {
     float: right;
     width: 125px;
@@ -76,4 +96,5 @@ h1 {
 
 .hero article {
     position: absolute;
+    padding: 3rem
 }
