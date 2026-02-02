@@ -4,8 +4,7 @@
     --accent1-color: green;
     --accent2color: darkred;
     --heading-font: pink;
-    --body-font: orange;
-
+    --body-font: Arial, helvetica, sans-serif;
 }
 
 * {
@@ -22,36 +21,33 @@ body {
 header,
 main,
 footer {
-    width: 540px;
-    margin: 60px;
-    color: var(--secondary-color);
+    width: 840px;
+    margin: 0 auto;
+    /*lor: var(--secondary-color);*/
 
 }
 
-h1 {
-    position: absolute;
-    width: 100%;
-    padding: 0.5px;
-    opacity: 10.7;
-    background-color: var(--accent2color);
-    color: white;
-
-}
-
+h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    padding: 200px;
+    /* padding: 200px;
     margin-top: 1px;
     margin-bottom: 1px;
+    color: blue;
+    */
 }
 
 nav,
-p article {
-    margin: 1px;
-    padding: 30px;
+section,
+p,
+article {
+    margin: 15px;
+    padding: 8px;
+    color: black;
 }
 
+/*
 main,
 section p {
     padding: 0.rem;
@@ -74,14 +70,14 @@ p {
     border: 1 rem;
     margin: 1 rem;
 }
-
+*/
 .socialmedia a {
     text-decoration: none;
 
 }
 
 .hero {
-    position: relative
+    position: relative;
 }
 
 .hero img {
@@ -90,12 +86,40 @@ p {
     height: auto;
 }
 
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 10.7;
+    background-color: var(--accent2color);
+    color: white;
+
+}
+
+article {
+    padding: .5rem;
+    border: .5rem;
+    background-color: lightblue;
+    position: absolute;
+    top: 20rem;
+    opacity: .9;
+
+}
+
 .hero article img {
     float: right;
     width: 125px;
+
 }
 
-.hero article {
-    position: absolute;
-    padding: 3rem
+header {
+    background-color: red;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 20px;
+
 }
