@@ -27,6 +27,12 @@ footer {
 
 }
 
+header img {
+    padding: 1px;
+    border: 1px;
+    margin: 7px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -74,6 +80,11 @@ p {
 .socialmedia a {
     text-decoration: none;
 
+    gap: 1px;
+    display: flex;
+    float: left;
+    flex-direction: row;
+
 }
 
 .hero {
@@ -84,6 +95,7 @@ p {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 h1 {
@@ -115,11 +127,88 @@ article {
 }
 
 header {
-    background-color: red;
+    display: flex;
+    background-color: skyblue;
 }
 
 nav {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    text-align: justify;
+    gap: 40px;
+
+}
+
+.history h2 {
+    position: absolute;
+    top: 715px;
+    left: 10px;
+    padding-top: 1px;
+    width: 811px;
+    text-align: center;
+    margin-left: .09rem;
+    left: 19.5%;
+
+}
+
+.history p {
+    width: 56%;
+
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+.history img {
+
+    padding: 1px;
+    border: 1px;
+    margin: 20px;
+}
+
+.Adventure {
+    text-align: center;
     display: grid;
-    grid-template-rows: 20px;
+    grid-auto-flow: column;
+    gap: 2px;
+
+}
+
+.Adventure h2 {
+    position: absolute;
+    top: 950px;
+    text-align: center;
+    width: 840px;
+    font-size: 1.5rem;
+    padding-top: 1px;
+    border: 1px;
+    margin: 1px;
+
+}
+
+.Adventure figure {
+    display: grid;
+    text-align: center;
+}
+
+.figure img {
+    padding: 1px;
+    margin: 1px;
+    border: 1px;
+
+}
+
+.footer {
+
+    padding-top: 1px;
+    border: 1px;
+    margin: 1px;
 
 }
