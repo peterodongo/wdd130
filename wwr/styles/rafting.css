@@ -110,7 +110,8 @@ h1 {
 
 }
 
-article {
+.hero article {
+    position: relative;
     padding: .5rem;
     border: .5rem;
     background-color: lightblue;
