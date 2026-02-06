@@ -53,6 +53,10 @@ article {
     color: black;
 }
 
+.hero {
+    position: relative;
+}
+
 /*
 main,
 section p {
@@ -107,11 +111,11 @@ h1 {
 }
 
 .hero article {
-
+    position: absolute;
     padding: .5rem;
     border: .5rem;
     background-color: lightblue;
-    position: absolute;
+
     top: 20rem;
     opacity: .9;
 
