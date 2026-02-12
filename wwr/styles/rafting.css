@@ -98,7 +98,7 @@ p {
 
 }
 
-h1 {
+.heroh1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -212,4 +212,55 @@ nav {
     border: 1px;
     margin: 1px;
 
+}
+
+.contact-info.address {
+    position: relative;
+    left: 600px;
+    top: 10px;
+    padding: 0rem;
+    border: 0rem;
+    margin: auto;
+    display: grid;
+}
+
+.contact-info address {
+    display: flex;
+    justify-self: center;
+}
+
+.contact-info a {
+    display: flex;
+    justify-content: center;
+
+}
+
+.user .fieldset {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9rem;
+}
+
+.user-contact-info {
+    display: block;
+    position: absolute;
+    top: 300px;
+    width: 200px;
+    left: 725px;
+
+}
+
+h1 {
+    position: relative;
+    top: -10px;
+    left: 210px;
+
+}
+
+.employees {
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }
