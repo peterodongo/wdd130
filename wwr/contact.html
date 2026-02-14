@@ -31,7 +31,7 @@
             <a href="tel: +19999999999">1 999 999 999</a>
             <a href="mailto:info@ahitewater.com">mailto:info@ahitwater</a>
         </section>
-        <div class="Gmap">
+        <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1433.4889701252823!2d36.807029201791345!3d-1.2695809999999945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173bda3cd2af%3A0x75e06e651c03b6db!2sOrbit%20Place%2C%20Chiromo%20Ln%2C%20Nairobi!5e1!3m2!1sen!2ske!4v1770746523257!5m2!1sen!2ske"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -40,22 +40,23 @@
         <form class="user-contact-info">
             <div class="full-width"></div>
             <label for="full name">Name</label>
-            <input type="text" required placeholder="Peter Odongo">
+            <input type="text" id="full name" name="full name" required placeholder="Peter Odongo">
             <label for="email">Email</label>
-            <input type="feedback" required placeholder="peterodongo@gmail.com">
+            <input type="feedback" id="full name" name="full name" required
+              placeholder="peterodongo@gmail.com">
 
-            <p>message purpose</p>
+            <p>message purpose:</p>
             <fieldset class=fieldset>
                 <label for="general inquirement">general inquirement</label>
-                <input type="radio" id="Inquiry" required>
+                <input type="radio" id="Inquiry" name="purpose" required>
                 <label for="reservation quastion">reservation quastion</label>
-                <input type="radio" id="Inquiry" required>
+                <input type="radio" id="Inquiry" name="purpose" required>
                 <label for="website suggestion">website suggestion</label>
-                <input type="radio" id="Inquiry" required>
+                <input type="radio" id="Inquiry" name="purpose" required>
             </fieldset>
 
             <label for="message">message</label>
-            <input type="text" required placeholder="type here">
+            <textarea type="text" row="7" required placeholder="type here"></textarea>
 
             <div>
                 <input type="checkbox" name="subscribe" id="subscribe">
