@@ -274,22 +274,23 @@ h1 {
 
 }*/
 
-/*.user-index-info img {
-    position: absolute;
-    left: 270px;
-}*/
+.index-info img {
+    position: relative;
+    left: 20px;
+    gap: 60px;
+}
 
 .user-index-info {
     position: relative;
-    left: 250px
+    left: 116.5px
 }
 
 .index-info {
     position: relative;
     display: flex;
-    flex-direction: row;
+    grid-row: 20px;
     left: 310px;
-    gap: 65px;
+    gap: 40px;
 }
 
 /*.h4 {
@@ -298,8 +299,8 @@ h1 {
     left: 70px;
 }*/
 
-.purpose-index {
-    left: 45px;
+.purpose-index p {
+    left: 5px;
 }
 
 .Trips {
@@ -316,7 +317,7 @@ h1 {
 
 .trip-table {
     left: 150px;
-    width: 45%;
+    width: 5%;
     align-items: center;
 
 }
