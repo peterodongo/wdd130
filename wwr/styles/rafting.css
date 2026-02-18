@@ -320,6 +320,15 @@ h3 {
     right: 250px;
 }
 
+h4 {
+    text-align: center;
+
+}
+
+h5 {
+    text-align: center;
+}
+
 .Trips {
     padding: 1px;
     border: 0px;
