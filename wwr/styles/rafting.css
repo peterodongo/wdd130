@@ -276,7 +276,8 @@ h1 {
 
 .index-info img {
     position: relative;
-    left: 20px;
+    top: 5px;
+    right: 250px;
     gap: 60px;
 }
 
@@ -291,16 +292,32 @@ h1 {
     grid-row: 20px;
     left: 310px;
     gap: 40px;
+    top: 5px;
+    margin: 15px;
 }
 
 /*.h4 {
     align-items: center;
     top: 580;
     left: 70px;
-}*/
+}
 
 .purpose-index p {
     left: 5px;
+}*/
+
+h3 {
+    display: block;
+    position: relative;
+    left: 55px;
+    bottom: 20px;
+
+}
+
+.index-info figcaption {
+    position: relative;
+    top: 5px;
+    right: 250px;
 }
 
 .Trips {
@@ -313,6 +330,7 @@ h1 {
 .Trips img {
     align-items: center;
     margin: 15px;
+
 }
 
 .trip-table {
