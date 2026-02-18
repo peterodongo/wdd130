@@ -283,13 +283,20 @@ h1 {
 
 .user-index-info {
     position: relative;
-    left: 116.5px
+    left: 116.5px;
+    width: 300px;
+
+}
+
+.user-index-info a {
+    position: relative;
+    right: 165px;
+
 }
 
 .index-info {
     position: relative;
     display: flex;
-    grid-row: 20px;
     left: 310px;
     gap: 40px;
     top: 5px;
