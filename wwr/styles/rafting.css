@@ -138,6 +138,8 @@ nav {
     flex-direction: row;
     text-align: justify;
     gap: 40px;
+    font-size: xx-large;
+    padding: 2rem;
 
 }
 
@@ -355,8 +357,9 @@ h5 {
 }
 
 .wf1-newsletter {
-    width: 400px;
+    width: 300px;
     color: blue;
+    display: block;
 }
 
 .cta-button {
