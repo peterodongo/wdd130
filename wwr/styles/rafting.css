@@ -360,6 +360,7 @@ h5 {
     width: 300px;
     color: blue;
     display: block;
+    align-items: center;
 }
 
 .cta-button {
