@@ -293,9 +293,10 @@ h1 {
 .index-info {
     position: relative;
     display: flex;
-    gap: 40px;
+    gap: 200px;
     top: 5px;
     margin: 15px;
+    text-align: center;
 }
 
 /*.h4 {
@@ -314,12 +315,6 @@ h3 {
     left: 55px;
     bottom: 20px;
 
-}
-
-.index-info figcaption {
-    position: relative;
-    top: 5px;
-    right: 250px;
 }
 
 h4 {
