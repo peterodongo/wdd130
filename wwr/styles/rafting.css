@@ -262,12 +262,7 @@ h1 {
     text-align: center;
     background-color: var(--accent2color);
     color: white;
-}
-
-h1.user-contact-info {
-    position: relative;
-    top: -200px;
-    background-color: va(--accent2color);
+    width: 840px;
 }
 
 .employees {
@@ -283,13 +278,6 @@ h1.user-contact-info {
     position: relative;
 
 }*/
-
-.index-info img {
-    position: relative;
-    top: 5px;
-    right: 250px;
-    gap: 60px;
-}
 
 .user-index-info {
     position: relative;
@@ -361,4 +349,23 @@ h5 {
     width: 5%;
     align-items: center;
 
+}
+
+.cta-button {
+    background-color: aqua;
+    display: inline-block;
+    color: black;
+    padding: .75rem 2rem;
+    border-radius: 4rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    width: 240px;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+
+}
+
+.cta-button:hover {
+    transform: scale(1.5);
 }
