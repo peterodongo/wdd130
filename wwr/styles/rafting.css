@@ -348,9 +348,9 @@ h5 {
 }
 
 .trip-table {
-    left: 150px;
-    width: 5%;
+    width: 1000px;
     align-items: center;
+    font-size: x-large;
 
 }
 
@@ -378,4 +378,25 @@ h5 {
     transform: scale(1.5);
     background-color: blueviolet;
 
+}
+
+th {
+    background-color: aqua;
+    font-size: xx-large;
+    width: 800px;
+
+}
+
+td:nth-child(3n+3) {
+    background-color: yellow;
+}
+
+td:nth-child(3n+1) {
+    background-color: blue;
+    color: white;
+}
+
+td:nth-child(3n+2) {
+    background-color: blueviolet;
+    color: white;
 }
