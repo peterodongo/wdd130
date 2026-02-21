@@ -351,6 +351,11 @@ h5 {
 
 }
 
+.wf1-newsletter {
+    width: 400px;
+    color: blue;
+}
+
 .cta-button {
     background-color: aqua;
     display: inline-block;
