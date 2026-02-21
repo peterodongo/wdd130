@@ -264,6 +264,12 @@ h1 {
     color: white;
 }
 
+h1.user-contact-info {
+    position: relative;
+    top: -200px;
+    background-color: va(--accent2color);
+}
+
 .employees {
     position: relative;
     left: 50px;
