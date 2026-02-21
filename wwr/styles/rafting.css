@@ -376,4 +376,6 @@ h5 {
 
 .cta-button:hover {
     transform: scale(1.5);
+    background-color: blueviolet;
+
 }
