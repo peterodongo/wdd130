@@ -130,6 +130,7 @@ p {
 header {
     display: flex;
     background-color: skyblue;
+    color: white;
 }
 
 nav {
@@ -140,6 +141,7 @@ nav {
     gap: 40px;
     font-size: xx-large;
     padding: 2rem;
+    color: white;
 
 }
 
@@ -217,6 +219,7 @@ footer {
     height: 150px;
     position: absolute;
     left: 260px;
+    color: white;
 
 }
 
@@ -408,7 +411,7 @@ td:nth-child(3n+2) {
 .trips h1 {
     position: absolute;
     top: 140px;
-    left: 190px;
+    left: 250px;
     color: white;
 
 }
