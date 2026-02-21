@@ -334,7 +334,7 @@ h5 {
     text-align: center;
 }
 
-.Trips {
+.trips {
     padding: 1px;
     border: 0px;
     margin: 5px;
@@ -397,6 +397,13 @@ td:nth-child(3n+1) {
 }
 
 td:nth-child(3n+2) {
-    background-color: blueviolet;
-    color: white;
+    background-color: pink;
+    color: black;
+}
+
+h1.trips {
+    position: absolute;
+    bottom: 800px;
+    background-color: black;
+
 }
