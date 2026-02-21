@@ -206,12 +206,15 @@ nav {
 
 }
 
-.footer {
+footer {
 
     padding-top: 1px;
     border: 1px;
     margin: 1px;
     background-color: skyblue;
+    height: 150px;
+    position: absolute;
+    left: 120px;
 
 }
 
