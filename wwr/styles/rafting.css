@@ -214,7 +214,7 @@ footer {
     background-color: skyblue;
     height: 150px;
     position: absolute;
-    left: 120px;
+    left: 260px;
 
 }
 
@@ -299,7 +299,6 @@ h1 {
 .index-info {
     position: relative;
     display: flex;
-    left: 310px;
     gap: 40px;
     top: 5px;
     margin: 15px;
